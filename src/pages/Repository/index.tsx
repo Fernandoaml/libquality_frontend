@@ -55,7 +55,7 @@ const Repository: React.FC = () => {
   const dataChart: (string | number)[][] = [];
   const options = {
     title: `Total Issues from ${repositoryData?.fullName} | Days`,
-    curveType: 'function',
+    curveType: '',
     legend: { position: 'bottom' },
     backgroundColor: '#E5E5E5',
     is3D: true,
